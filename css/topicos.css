@@ -1,0 +1,29 @@
+.topicos{
+	background-color: var(--cor-fonts-destaque);
+	color: var(--cor-backgroundPrincipal);
+	padding: 1rem;
+}
+
+.topicos__titulo{
+	font-family: var(--font);
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.topicos__lista{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.topicos__item{
+	text-transform: capitalize;
+	background: var(--cor-fonts-titulos);
+	border: 1rem solid var(--cor-fonts-titulos);
+	font-weight: 700;
+	margin: 1rem;
+}
