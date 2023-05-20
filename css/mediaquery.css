@@ -42,7 +42,7 @@
 	}
 
 	.lista__item{
-		width: 15vw;
+		width: 20%;
 	}
 
 	.container__opcoes:checked ~ .lista__menu{
