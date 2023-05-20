@@ -14,19 +14,21 @@
 
 .contatos__titulo{
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .contatos__texto{
+	font-size: 16px;
 	font-weight: 300;
 }
 
 .contatos__email{
-	padding: 1rem;
+	padding: 0.5rem;
 	width: 90%;
 	border: 0.1rem solid var(--cor-fonts-destaque);
 	border-radius: 2rem;
 	color: var(--font);
+	margin-top: 0.5rem;
 }
 
 .contatos__email::placeholder{
@@ -43,4 +45,8 @@ hr{
 .rodape{
 	background: var(--cor-background);
 	padding: 1.2rem;
+}
+
+.lista__servicos{
+	display: none;
 }
