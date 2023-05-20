@@ -9,12 +9,11 @@
 	<title>AluraBooks</title>
 </head>
 <body>
-
 	<header class="cabecalho">
 		<div class="container">
 			<input type="checkbox" id="menu" class="container__botao">
 			<label for="menu">
-				<span class="cabecalho__menu container__imagem"></span>
+				<span class="cabecalho__menu container__imagem-logoPrincipal"></span>
 			</label>
 			<ul class="lista__menu">
 				<li class="lista__titulo">Categorias</li>
@@ -24,10 +23,28 @@
 				<li class="lista__item"><a href="#" class="lista__link">Bussiness</a></li>
 				<li class="lista__item"><a href="#" class="lista__link">Design & UX</a></li>
 			</ul>
-			<img src="./imgs/Logo.svg" alt="logo" class="container__imagem">
+			<span class="container__imagem-logo"></span>
+			<h1 class="cabecalho__titulo"><b>Alura</b>Books</h1>
 		</div>
+
+		<ul class="container opcoes">
+			<input type="checkbox" id="menu__opcoes" class="container__opcoes">
+			<label for="menu__opcoes">
+				<li class="lista__opcoes">Categorias</li>
+			</label>
+			<ul class="lista__menu">
+				<li class="lista__item"><a href="#" class="lista__link">Programação</a></li>
+				<li class="lista__item"><a href="#" class="lista__link">Front-End</a></li>
+				<li class="lista__item"><a href="#" class="lista__link">Infraestrutura</a></li>
+				<li class="lista__item"><a href="#" class="lista__link">Bussiness</a></li>
+				<li class="lista__item"><a href="#" class="lista__link">Design & UX</a></li>
+			</ul>
+			<li class="lista__opcoes">Favoritos</li>
+			<li class="lista__opcoes">Minha estante</li>
+		</ul>
+		
 		<div class="container">
-			<a href="#"><img src="./imgs/Favoritos.svg" alt="icone favoritos" class="container__imagem"></a>
+			<a href="#"><img src="./imgs/Favoritos.svg" alt="icone favoritos" class="container__imagem transparente"></a>
 			<a href="#"><img src="./imgs/Compras.svg" alt="icone sacola" class="container__imagem"></a>
 			<a href="#"><img src="./imgs/Usuário.svg" alt="icone usuario" class="container__imagem"></a>
 		</div>

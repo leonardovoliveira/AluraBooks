@@ -1,0 +1,68 @@
+@media screen and (min-width: 1024px){
+	.cabecalho{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.cabecalho__menu{
+		background-image: url("../imgs/Logo.svg");
+		height: 2.5rem;
+		width: 3rem;
+	}
+
+	.container__imagem-logo{
+		display: none;
+	}
+
+	.cabecalho__titulo{
+		font-family: 'Josefin Sans';
+		font-size: 30px;
+		display: block;
+		font-weight: 400;
+	}
+
+	b{
+		font-weight: 700;
+	}
+
+	.transparente{
+		display: none;
+	}
+
+	.container__imagem{
+		padding: 0 1rem;
+	}
+
+	.lista__opcoes{
+		font-family: var(--font);
+		font-size: 16px;
+		font-weight: 400;
+		margin: 0 3rem;
+		text-transform: uppercase;
+	}
+
+	.lista__item{
+		width: 15vw;
+	}
+
+	.container__opcoes:checked ~ .lista__menu{
+		display: block;
+	}
+
+	.container__botao:checked ~ .lista__menu{
+		display: none;
+	}
+
+	.opcoes{
+		display: flex;
+	}
+
+	.container__opcoes{
+		display: none;
+		align-items: center;
+	}
+
+	.container{
+		margin: 0 0.5rem;
+	}
+}

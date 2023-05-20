@@ -6,6 +6,10 @@
 	position: relative;
 }
 
+.cabecalho__titulo{
+	display: none;
+}
+
 .cabecalho__menu{
 	width: 2rem;
 	height: 2rem;
@@ -13,17 +17,25 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	display: inline-block;
-	margin: 1rem; diferenca
+	margin: 1rem;
+}
+
+.container__imagem-logo{
+	width: 2rem;
+	height: 2rem;
+	background-image: url("../imgs/Logo.svg");
+	background-repeat: no-repeat;
+	padding: 0.5rem;
+}
+
+.container__imagem{
+	padding: 0.2rem;
 }
 
 .container{
 	display: flex;
 	align-items: center;
 	
-}
-
-.container__imagem{
-	padding: 0.5rem;
 }
 
 .lista__menu{
@@ -60,4 +72,12 @@
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	text-transform: uppercase;
+}
+
+.container__opcoes{
+	display: none;
+}
+
+.opcoes{
+	display: none;
 }
