@@ -78,20 +78,31 @@
 		width: 50%;
 	}
 
+	.banner__pesquisa::placeholder{
+		background-position: 4rem;
+	}
+
 	.carrossel__titulo{
 		padding: 3rem 0 0.8rem;
 	}
 
-	.swiper-slide img{
+	.swiper-pagination{
+		margin: 2rem 0 3rem 0;
+	}
+
+	.swiper{
 		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	
+	.swiper-button-prev,
+	.swiper-button-next{
+		display: block;
+		top: 60%;
+	}
+
 	.card{
 		width: 50%;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 2rem auto;
 	}
 
 	.topicos__lista{
@@ -100,8 +111,11 @@
 
 	.contatos{
 		display: flex;
-		justify-content: space-between;
 		padding: 2rem 6rem;
+	}
+
+	.contatos__texto{
+		width: 70%;
 	}
 
 	.contatos__email{
@@ -112,7 +126,7 @@
 	}
 
 	.rodape{
-		background: var(--cor-backgroundPrincipal);
+		background: var(--cor-background);
 	}
 
 	.servicos{
