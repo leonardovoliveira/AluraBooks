@@ -198,6 +198,13 @@
 	.botao__titulo{
 		display: none;
 	}
+	
+	.container__botao:checked~.container__label >.cabecalho__menu{
+		background-image: url("../imgs/Logo.svg");
+	}
+	.container__botao:checked~.container__label {
+		background: var(--cor-background);
+	}
 }
 
 @media screen and (min-width: 1728px){
@@ -303,5 +310,12 @@
 
 	.titulo__servicos{
 		margin-left: 1rem;
+	}
+
+	.container__botao:checked~.container__label >.cabecalho__menu{
+		background-image: url("../imgs/Logo.svg");
+	}
+	.container__botao:checked~.container__label {
+		background: var(--cor-background);
 	}
 }	
