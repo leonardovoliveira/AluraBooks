@@ -10,6 +10,15 @@
 	display: none;
 }
 
+.container__botao:checked~.container__label >.cabecalho__menu{
+	background-image: url("../imgs/Menu\ Aberto.png");
+}
+
+.container__botao:checked~.container__label{
+	background: var(--cor-fonts-destaque);
+
+}
+
 .cabecalho__menu{
 	width: 2rem;
 	height: 2rem;
@@ -35,14 +44,13 @@
 .container{
 	display: flex;
 	align-items: center;
-	
 }
 
 .lista__menu{
 	display: none;
 	position: absolute;
 	top: 100%;
-	width: 60vw;
+	width: 70vw;
 }
 
 .container__botao:checked ~ .lista__menu{
